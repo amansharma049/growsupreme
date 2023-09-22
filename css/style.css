@@ -149,7 +149,7 @@ a:hover{
 }
 .cards{
     display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+        
         grid-gap: 20px;
 }
 .card{
@@ -377,6 +377,7 @@ ul li{
 @media(min-width: 480px) {
     .cards-client {
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
     }
 }
 @media(max-width: 620px) {
