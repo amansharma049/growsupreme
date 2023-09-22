@@ -385,3 +385,7 @@ ul li{
         width: 80%;
     }
 }
+@media(max-width: 512px){
+    .footer-logo{
+        width: 70%;
+    }
