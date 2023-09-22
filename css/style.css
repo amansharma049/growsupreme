@@ -275,6 +275,9 @@ ul.socail li .socail-link:hover{
     width:  80%;
     border-radius: 185px;
 }
+.footer-link ul li a{
+    color:rgb(162 160 160);
+}
 .footer-link ul li a:hover{
     color: #eee;
 }
@@ -383,6 +386,9 @@ ul li{
 @media(max-width: 620px) {
     .copyright p{
         width: 80%;
+    }
+    .footer-link ul {
+        margin:0;
     }
 }
 @media(max-width: 512px){
